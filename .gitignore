@@ -1,0 +1,60 @@
+# 가상환경
+.venv/
+env/
+ENV/
+venv/
+
+# 환경변수
+.env
+
+# 캐시/빌드
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 실행 파일/드라이버
+chromedriver.exe
+chromedriver-win64/
+
+# 데이터/아티팩트
+chroma_cf/
+chroma_cf_pro/
+PDFs/
+
+# IDE
+.vscode/
+.idea/
+
+시작.txt
+
+#Python 빌드/배포 아티팩트
+build/
+dist/
+*.egg-info/
+
+#로그나 실행 중 생길 수 있는 파일
+*.log
+*.out
+*.tmp
+
+#테스트/캐시
+.coverage
+htmlcov/
+pytest_cache/
+
+# OS 임시 파일
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook 체크포인트 (사용 시)
+.ipynb_checkpoints/
+
+# 로컬 DB 혹은 캐싱 아티팩트(필요에 따라)
+*.db
+*.jsonl
+*.bin
+*.pickle
+
+# VSCode workspace file (선택)
+*.code-workspace
